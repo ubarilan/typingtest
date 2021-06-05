@@ -182,8 +182,6 @@ int main() {
 		printf("File %s was empty, please fill it with text to use the program...\n", filename);
 		exit(-1);
 	}
-	printf("Text length: %d\n", textl);
     fclose(text_file);
-	printf("Text: %s\n", filecontent);
 	getInp(filecontent);
 }
