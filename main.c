@@ -72,7 +72,6 @@ int cmpCharArrs(char *first, char *second) {
 
 	for(int i = 0; i < firstLen; i++) {
 		if(first[i] != second[i]) {
-            printf("Incorrect: %c, %c", first[i], second[i]);
 			return 0;
 		}
 	}
@@ -186,6 +185,5 @@ int main() {
 	printf("Text length: %d\n", textl);
     fclose(text_file);
 	printf("Text: %s\n", filecontent);
-	sleep(0);
 	getInp(filecontent);
 }
